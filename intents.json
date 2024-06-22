@@ -1,0 +1,124 @@
+{
+    "intents": [
+        {
+            "tag": "apresentacao",
+            "keywords": ["bom", "dia", "tarde", "noite", "olá", "ola", "oi", "tudo bem", "olá!", "ola!", "ei", "saudações", "hello"],
+            "responses": [
+                "Olá! Em que posso te ajudar hoje?",
+                "Bom dia!  Como posso te ajudar?",
+                "Boa tarde!  Como posso te ajudar?"
+            ]
+        },
+        {
+            "tag": "quem_e_voce",
+            "keywords": ["quem", "é", "você", "você é", "quem é", "quem você é", "quem é você"],
+            "responses": [
+                "Eu sou a sua assistente virtual da ItaOleo, programada para te ajudar com suas dúvidas sobre nossos serviços e informações.",
+                "Sou um chatbot desenvolvido para te auxiliar com tudo sobre a ItaOleo, desde serviços até horários de funcionamento.",
+                "Sou a IA da ItaOleo, criada para facilitar sua experiência e te ajudar a encontrar as informações que precisa."
+            ]
+        },
+        {
+            "tag": "como_foi_criada",
+            "keywords": ["como", "foi", "criada", "criado", "desenvolvido", "desenvolvida", "quem", "te", "fez"],
+            "responses": [
+                "Fui criada por um desenvolvedor que utilizou inteligência artificial para me tornar capaz de conversar e te ajudar.",
+                "Meu desenvolvimento envolveu muita programação e treinamento para aprender a responder suas perguntas da melhor forma possível.",
+                "Sou uma IA com base em aprendizado de máquina, o que significa que fui treinada com dados para entender suas perguntas e oferecer respostas relevantes."
+            ]
+        },
+        {
+            "tag": "servico",
+            "keywords": ["serviço", "serviços", "troca", "óleo", "filtros", "higienização", "mecânica", "manutenção", "reparos", "inspeção", "motor", "freios", "suspensão", "amortecedores", "bateria"],
+            "responses": [
+                "Aqui na ItaOleo oferecemos uma gama completa de serviços, incluindo troca de óleo, filtros, higienização, manutenção geral, reparos de motor, freios, suspensão, amortecedores, e verificação de bateria. Tudo para o seu carro ficar sempre em ordem!",
+                "Nossos serviços abrangem desde a troca de óleo e filtros até serviços mais complexos como reparos de motor e manutenção geral. Conte com a gente para manter seu veículo funcionando perfeitamente!",
+                "Se precisa de um serviço para o seu carro, da troca de óleo a reparos mais específicos, a ItaOleo é o lugar certo! Temos uma equipe qualificada para atender suas necessidades."
+            ]
+        },
+        {
+            "tag": "localizacao",
+            "keywords": ["localização", "local", "endereço", "onde", "fica", "situada", "localiza"],
+            "responses": [
+                "A ItaOleo está localizada na Av. Vinte e Nove de Abril, 458 - Vila Santa Clara, Itatiba - SP.  Estamos te esperando!",
+                "Você nos encontra na Av. Vinte e Nove de Abril, 458 - Vila Santa Clara, Itatiba - SP. Venha nos fazer uma visita!",
+                "Para encontrar a ItaOleo, procure pela Av. Vinte e Nove de Abril, 458 - Vila Santa Clara, Itatiba - SP. Será um prazer recebê-lo!"
+            ]
+        },
+        {
+            "tag": "funcionamento",
+            "keywords": ["horário", "horários", "funcionamento", "abre", "fecha", "abertura", "fechamento", "horario", "horarios", "dias", "horas"],
+            "responses": [
+                "A ItaOleo funciona de segunda a sexta, das 8h às 17h, e aos sábados, das 8h às 12h. Esperamos você!",
+                "Estamos abertos de segunda a sexta, das 8h às 17h, e aos sábados, das 8h às 12h.  Aproveite para agendar seu serviço!",
+                "Nosso horário de funcionamento é de segunda a sexta, das 8h às 17h, e aos sábados, das 8h às 12h.  Conte com a gente!"
+            ]
+        },
+        {
+            "tag": "contato",
+            "keywords": ["telefone", "contato", "número", "telefone", "numero", "whatsapp"],
+            "responses": [
+                "O telefone da ItaOleo é (11) 4534-1546. Entre em contato para tirar suas dúvidas ou agendar um serviço.",
+                "Para falar com a ItaOleo, ligue para (11) 4534-1546.  Estamos à disposição para te atender!",
+                "Ligue para (11) 4534-1546 e fale com a gente!  Teremos prazer em te ajudar."
+            ]
+        },
+        {
+            "tag": "pagamento",
+            "keywords": ["pagamento", "formas", "pix", "cartão", "dinheiro", "parcela", "cartao", "crédito", "débito", "credit", "debit", "parcelamento"],
+            "responses": [
+                "Aceitamos diversas formas de pagamento: Pix, cartões de crédito e débito, dinheiro. Também oferecemos a opção de parcelamento no cartão para facilitar!",
+                "Aqui na ItaOleo você pode pagar com Pix, cartão de crédito e débito, ou dinheiro.  E se precisar, parcelamos no cartão!",
+                "Trabalhamos com várias opções de pagamento: Pix, cartão de crédito e débito, e dinheiro.  Parcelamento no cartão também disponível."
+            ]
+        },
+        {
+            "tag": "orcamento",
+            "keywords": ["orçamento", "quanto", "custa", "valor", "preço", "custo"],
+            "responses": [
+                "Para te dar um orçamento preciso, preciso saber qual o serviço que você precisa. Pode me dizer qual o tipo de serviço e qual o modelo do seu carro?",
+                "O valor do serviço varia de acordo com o tipo de serviço e o veículo. Me fale qual serviço você precisa e o modelo do seu carro para eu te dar um orçamento.",
+                "É um prazer te ajudar com o orçamento!  Por favor, me fale qual o serviço e o modelo do seu carro para que eu possa te passar um valor detalhado."
+            ]
+        },
+        {
+            "tag": "agendamento",
+            "keywords": ["agendar", "agendamento", "marcar", "horario", "data"],
+            "responses": [
+                "Que ótimo! Para agendar um serviço, me fale qual serviço você precisa e em qual dia e horário gostaria de agendar.",
+                "Para agendar, preciso saber qual serviço você deseja e qual a data e horário que te convêm.  Assim podemos garantir sua vaga!",
+                "Adoro te ajudar com agendamentos!  Me fale qual serviço você precisa, a data e o horário desejado para que eu possa confirmar sua reserva."
+            ]
+        },
+        {
+            "tag": "despedida",
+            "keywords": ["obrigado", "obrigada", "até", "logo", "tchau", "adeus", "valeu", "muito", "bem", "agradecido", "agradecida"],
+            "responses": [
+                "De nada! Fique à vontade para entrar em contato se precisar de mais alguma informação.",
+                "Foi um prazer te ajudar! Volte sempre!",
+                "Até breve! Lembre-se que estamos à disposição para qualquer dúvida."
+            ]
+        },
+        {
+            "tag": "tabela_preco",
+            "keywords": ["preço", "tabela", "valores", "produtos", "quanto", "custa", "lista de preços"],
+            "responses": [
+                "Aqui estão os preços dos nossos principais produtos e serviços:\n\n| Produto/Serviço      | Preço       |\n|----------------------|-------------|\n| Troca de óleo        | R$ 150,00   |\n| Filtro de óleo       | R$ 50,00    |\n| Higienização         | R$ 200,00   |\n| Alinhamento e Balanceamento | R$ 120,00 |\n| Revisão Completa     | R$ 500,00   |\n\nCaso precise de mais detalhes ou outros serviços, estou à disposição!"
+            ]
+        },
+        {
+            "tag": "manutencao_oleo",
+            "keywords": ["troca de óleo", "óleo", "manutenção", "quando trocar óleo", "km óleo", "quilometragem óleo", "tempo troca óleo"],
+            "responses": [
+                "É recomendável trocar o óleo do carro a cada 6 meses ou a cada 10.000 km, o que ocorrer primeiro. Para motos, a troca de óleo deve ser feita a cada 1.000 km. Manter essas práticas ajuda a garantir a longevidade e a eficiência do motor."
+            ]
+        },
+        {
+            "tag": "dicas_manutencao",
+            "keywords": ["dicas", "manutenção", "cuidado", "carro", "moto", "veículo"],
+            "responses": [
+                "Aqui estão algumas dicas de manutenção para seu veículo:\n- Verifique regularmente o nível do óleo e outros fluidos.\n- Mantenha os pneus calibrados e verifique o estado de desgaste.\n- Realize revisões periódicas conforme indicado no manual do veículo.\n- Substitua filtros de óleo, ar e combustível conforme recomendado.\n- Para motos, além da troca de óleo a cada 1.000 km, verifique a tensão da corrente e o estado dos pneus regularmente."
+            ]
+        }
+    ]
+}
